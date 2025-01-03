@@ -13,7 +13,7 @@ else:
     print("Tesseract path not found in the environment variable.")
 
 # Open the image
-img_path = "images\yazi.jpg"
+img_path = "yazi.jpg"
 img = Image.open(img_path)
 
 # Step 1: Grayscale (convert the image to grayscale)
